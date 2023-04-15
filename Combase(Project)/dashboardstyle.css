@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: medium;
+    box-sizing: border-box;
+
+body {
+   background-image: url("Gallery/cool-background.svg");
+   background-repeat: no-repeat;
+   background-size: 1900px;
+}
