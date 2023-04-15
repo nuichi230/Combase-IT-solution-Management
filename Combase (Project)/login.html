@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Combase IT Management</title>
+
+    <!---------------style--------------->
+    <link rel="stylesheet" href="loginstyle.css" />
+
+
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+
+<!-----------------------SIGN IN---------------------->
+
+            <form action="" method="get" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="Combase IT Management" />
+                <a href="landing.html" class="logo-word"><h4>Combase IT Management</h4></a>
+              </div>
+
+              <div class="heading">
+                <h2>Welcome Back</h2>
+                <h6>Not registred yet?</h6>
+                <a href="#" class="toggle">Sign up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    name="name"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    name="password"
+                    minlength="5"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                
+                <div class="input-wrap">
+                  <select class="custom-select" id="role-id" name="user_type">
+                    <option>Select a Role</option>
+                    <option value="user" name="user">User</option>
+                    <option value="admin" name="admin">Admin</option>
+                  </select>
+                </div>
+
+
+                <input type="submit" value="Sign In" class="sign-btn" />
+
+                <p class="text">
+                  Forgotten your password or you login datails?
+                  <a href="#">Get help</a> signing in
+                </p>
+              </div>
+            </form>
+
+<!--------------------REGISTRATION FORM-------------------->
+
+            <form action="" method="get" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="combase IT Management" />
+                <a href="landing.html" class="logo-word"><h4>Combase IT Management</h4></a>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign in</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    name="name_up"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    name="email_up"
+                    class="input-field"
+                    id="email"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="email">Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    name="password_up"
+                    minlength="5"
+                    class="input-field"
+                    id="pwd"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="pwd">Password</label>
+                </div>
+
+                <div class="input-wrap">
+                   <input 
+                   type="password" 
+                   name="cpassword"
+                   class="input-field"
+                   required 
+                  />
+                  <label for="cpassword">confirm Password</label>
+                </div>
+
+
+                <div class="input-wrap">
+                  <select class="custom-select" id="role-id" name="user_type">
+                    <option>Select a Role</option>
+                    <option value="user" name="user">User</option>
+                    <option value="admin" name="admin">Admin</option>
+                  </select>
+                </div>
+
+                <input type="submit" value="Sign Up" class="sign-btn" />
+
+                <p class="text">
+                  By signing up, I agree to the
+                  <a href="#">Terms of Services</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="" />
+              <img src="./img/image2.png" class="image img-2" alt="" />
+              <img src="./img/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>COMBASE AT YOUR SERVICE</h2>
+                  <h2>Savvy as usual</h2>
+                  <h2>Technicians for all</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="logapp.js"></script>
+  </body>
+</html>
